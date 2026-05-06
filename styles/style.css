@@ -295,3 +295,70 @@ footer {
   text-align: center;
   padding: 5rem 10%;
 }
+
+/* Mobile and Tablet Styles */
+
+@media (max-width:1500px){
+  .img-skill img{
+    opacity: 0;
+  }
+  .img-skill h1 {
+    opacity: 0;
+  }
+  .img-skill p{
+    opacity: 0;
+  }
+   .skill-badge{
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Stack Hero section vertically */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+    margin-top: 30px;
+  }
+
+  .img-profile img {
+    margin: 70px 10px 70px -80px;
+    height: 240px;
+    width: 200px;
+    position: absolute;
+  }
+
+  /* Adjust Navbar */
+  .nav-links {
+    display: none; /* Usually you'd implement a hamburger menu here */
+  }
+
+  /* Adjust Skills Section */
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .skills{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+  }
+  .skill-badge{
+    background-color: transparent;
+  }
+
+  .img-skill img {
+    
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+}
+
