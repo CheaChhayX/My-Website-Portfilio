@@ -362,3 +362,12 @@ footer {
   
 }
 
+@media (max-width:390px){
+   .img-profile img {
+    top: 50px;
+    margin: 60px auto;
+    height: 210px;
+    width: 180px;
+    position: relative;
+  }
+}
